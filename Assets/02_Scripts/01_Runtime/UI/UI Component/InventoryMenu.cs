@@ -59,11 +59,13 @@ namespace MinD.Runtime.UI
 
     private bool hasBeenSetup = false;
 
-    void Awake() {
+    void Awake() 
+    {
         Setup();
     }
     
-    void Setup() {
+    void Setup() 
+    {
         hasBeenSetup = true;
 
         if (isSlotCreated == false)
