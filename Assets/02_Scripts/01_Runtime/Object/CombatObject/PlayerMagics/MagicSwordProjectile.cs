@@ -44,6 +44,7 @@ public class MagicSwordProjectile : MonoBehaviour
         collider = GetComponent<Collider>();
         collider.enabled = false;
 
+        // 이펙트 키기
         magicProjectilePc = magicProjectileFx.GetComponent<ParticleSystem>();
         flightPc = flightFx.GetComponent<ParticleSystem>();
         explosionPc = explosionFx.GetComponent<ParticleSystem>();

@@ -8,7 +8,8 @@ namespace MinD.SO.Item.Items
 
 public class Healing : Magic
 {
-    [FormerlySerializedAs("healingFx")] [SerializeField] private GameObject healingObj;
+    [FormerlySerializedAs("healingFx")]
+    [SerializeField] private GameObject healingObj;
 
     private GameObject healing;
     private HealingParticle healingPc;
